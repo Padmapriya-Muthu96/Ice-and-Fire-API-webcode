@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<<head>
+    <title>Ice and Fire API Demo</title>
+  </head>
+  <style>
+    .book {
+  margin: 1em 0;
+  padding: 1em;
+  border-style: double;
+}
+
+.book h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.book p {
+  margin: 0.5em 0;
+}
+body{
+    background-color: cornsilk;
+}
+h1{
+    color: mediumblue;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border: solid red;
+}
+#search-container {
+      margin: 20px 0;
+    }
+    #search-input {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      align-content: flex-end;
+      width: 300px;
+    }
+
+  </style>
+  <body>
+    <h1>Ice and Fire API - Books</h1>
+  
+    <div id="search-container">
+        <input type="text" placeholder="Search books" id="search-input">
+      </div>
+      <div id="books-container"></div>
+      <div id="pagination-container"></div>
+    <div id="books"></div> 
+    
+  </body>
+  <script src="script.js"></script>
+</html>
